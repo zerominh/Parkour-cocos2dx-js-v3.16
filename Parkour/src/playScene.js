@@ -1,18 +1,19 @@
-
 var PlayScene = cc.Scene.extend({
-	space:null,
-    onEnter: function() {
-        this._super();
+	space: null,
+	gameLayer: null,
+	onEnter: function() {
+		this._super();
         this.initPhysics();
-        //add three layer in the right order
-     	
-        this.addChild(new BackgroundLayer());
-        this.addChild(new AnimationLayer(this.space));
-        this.addChild(new StatusLayer());
+        this.gameLayer = new cc.Layer();
 
+        //add Background layer and Animation layer to gameLayer
+        this.gameLayer.addChild(new BackgroundLayer(), 0, TagOfLayer.Background);
+        this.gameLayer.addChild(new AnimationLayer(this.space), 0, TagOfLayer.Animation);
+        this.addChild(this.gameLayer);
+        this.addChild(new StatusLayer(), 0, TagOfLayer.Status);
         this.scheduleUpdate();
-    },
-    // init space of chipmunk
+	},
+	 // init space of chipmunk
     initPhysics:function() {
         //1. new space object 
         this.space = new cp.Space();
@@ -29,5 +30,10 @@ var PlayScene = cc.Scene.extend({
     update:function (dt) {
         // chipmunk step
         this.space.step(dt);
-    },
+
+        var animationLayer = this.gameLayer.getChildByTag(TagOfLayer.Animation);
+        var eyeX = animationLayer.getEyeX();
+
+        this.gameLayer.setPosition(cc.p(-eyeX,0));
+    }
 });
