@@ -34,10 +34,6 @@ var AnimationLayer = cc.Layer.extend({
 
         var animation = new cc.Animation(animFrames, 0.1);
         this.runningAction = new cc.RepeatForever(new cc.Animate(animation));
-        //this.sprite = new cc.Sprite("#runner0.png");
-        //this.sprite.attr({x:80, y:85});
-        //this.sprite.runAction(this.runningAction);
-        //this.spriteSheet.addChild(this.sprite);
 
 
 
