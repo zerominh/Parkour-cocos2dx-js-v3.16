@@ -3,8 +3,16 @@ var BackgroundLayer = cc.Layer.extend({
 	map01:null,
 	mapWidth:0,
 	mapIndex:0,
-	ctor: function () {
+	space: null,
+    spriteSheet:null,
+	objects: null,
+	ctor: function (space) {
 		this._super();
+
+        // clean old array here
+        this.objects = [];
+        this.space = space;
+
 		this.init();
 	},
 	init: function() {
