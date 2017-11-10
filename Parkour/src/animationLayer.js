@@ -2,6 +2,9 @@ var AnimationLayer = cc.Layer.extend({
 	spriteSheet:null,
 	runningAction:null,
 	sprite:null,
+	space:null,
+    body:null,
+    shape:null,
     ctor:function (space) {
         this._super();
         this.space = space;
@@ -34,16 +37,12 @@ var AnimationLayer = cc.Layer.extend({
 
         var animation = new cc.Animation(animFrames, 0.1);
         this.runningAction = new cc.RepeatForever(new cc.Animate(animation));
-        //this.sprite = new cc.Sprite("#runner0.png");
-        //this.sprite.attr({x:80, y:85});
-        //this.sprite.runAction(this.runningAction);
-        //this.spriteSheet.addChild(this.sprite);
 
 
 
          //1. create PhysicsSprite with a sprite frame name
         this.sprite = new cc.PhysicsSprite("#runner0.png");
-        this.sprite.runAction(this.runningAction);
+        
         var contentSize = this.sprite.getContentSize();
         // 2. init the runner physic body
         this.body = new cp.Body(1, 
@@ -62,6 +61,7 @@ var AnimationLayer = cc.Layer.extend({
         this.space.addShape(this.shape);
         //8. set body to the physic sprite
         this.sprite.setBody(this.body);
+        this.sprite.runAction(this.runningAction);
         this.spriteSheet.addChild(this.sprite);
     },
     getEyeX:function () {

@@ -33,7 +33,8 @@ var PlayScene = cc.Scene.extend({
 
         var animationLayer = this.gameLayer.getChildByTag(TagOfLayer.Animation);
         var eyeX = animationLayer.getEyeX();
-
+        console.log(this.gameLayer.getPositionX());
         this.gameLayer.setPosition(cc.p(-eyeX,0));
+        console.log(this.gameLayer.getPositionX());
     }
 });
