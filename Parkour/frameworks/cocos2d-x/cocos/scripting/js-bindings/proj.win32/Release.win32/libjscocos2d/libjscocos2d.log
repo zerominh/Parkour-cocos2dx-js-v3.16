@@ -1,0 +1,311 @@
+﻿  2 File(s) copied
+  jsb_cocos2dx_3d_auto.cpp
+  jsb_cocos2dx_3d_extension_auto.cpp
+  jsb_cocos2dx_auto.cpp
+  jsb_cocos2dx_audioengine_auto.cpp
+  jsb_cocos2dx_builder_auto.cpp
+  jsb_cocos2dx_extension_auto.cpp
+  jsb_cocos2dx_network_auto.cpp
+  jsb_cocos2dx_navmesh_auto.cpp
+  jsb_cocos2dx_physics3d_auto.cpp
+  jsb_cocos2dx_spine_auto.cpp
+  jsb_cocos2dx_studio_auto.cpp
+  jsb_cocos2dx_ui_auto.cpp
+  jsb_cocos2dx_3d_manual.cpp
+..\auto\jsb_cocos2dx_auto.cpp(36955): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(36961): warning C4996: 'cocos2d::LabelBMFont::setLineBreakWithoutSpace': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(113): note: see declaration of 'cocos2d::LabelBMFont::setLineBreakWithoutSpace'
+..\auto\jsb_cocos2dx_auto.cpp(36974): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(36977): warning C4996: 'cocos2d::LabelBMFont::getBlendFunc': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(124): note: see declaration of 'cocos2d::LabelBMFont::getBlendFunc'
+..\auto\jsb_cocos2dx_auto.cpp(36993): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(36999): warning C4996: 'cocos2d::LabelBMFont::getLetter': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(126): note: see declaration of 'cocos2d::LabelBMFont::getLetter'
+..\auto\jsb_cocos2dx_auto.cpp(37018): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37021): warning C4996: 'cocos2d::LabelBMFont::getString': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(109): note: see declaration of 'cocos2d::LabelBMFont::getString'
+..\auto\jsb_cocos2dx_auto.cpp(37037): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37043): warning C4996: 'cocos2d::LabelBMFont::setBlendFunc': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(122): note: see declaration of 'cocos2d::LabelBMFont::setBlendFunc'
+..\auto\jsb_cocos2dx_auto.cpp(37057): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37063): warning C4996: 'cocos2d::LabelBMFont::setString': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(107): note: see declaration of 'cocos2d::LabelBMFont::setString'
+..\auto\jsb_cocos2dx_auto.cpp(37077): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37085): warning C4996: 'cocos2d::LabelBMFont::initWithString': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(104): note: see declaration of 'cocos2d::LabelBMFont::initWithString'
+..\auto\jsb_cocos2dx_auto.cpp(37099): warning C4996: 'cocos2d::LabelBMFont::initWithString': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(104): note: see declaration of 'cocos2d::LabelBMFont::initWithString'
+..\auto\jsb_cocos2dx_auto.cpp(37115): warning C4996: 'cocos2d::LabelBMFont::initWithString': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(104): note: see declaration of 'cocos2d::LabelBMFont::initWithString'
+..\auto\jsb_cocos2dx_auto.cpp(37133): warning C4996: 'cocos2d::LabelBMFont::initWithString': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(104): note: see declaration of 'cocos2d::LabelBMFont::initWithString'
+..\auto\jsb_cocos2dx_auto.cpp(37148): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37151): warning C4996: 'cocos2d::LabelBMFont::getFntFile': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(120): note: see declaration of 'cocos2d::LabelBMFont::getFntFile'
+..\auto\jsb_cocos2dx_auto.cpp(37167): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37173): warning C4996: 'cocos2d::LabelBMFont::setFntFile': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(119): note: see declaration of 'cocos2d::LabelBMFont::setFntFile'
+..\auto\jsb_cocos2dx_auto.cpp(37183): warning C4996: 'cocos2d::LabelBMFont::setFntFile': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(119): note: see declaration of 'cocos2d::LabelBMFont::setFntFile'
+..\auto\jsb_cocos2dx_auto.cpp(37197): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37203): warning C4996: 'cocos2d::LabelBMFont::setAlignment': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(111): note: see declaration of 'cocos2d::LabelBMFont::setAlignment'
+..\auto\jsb_cocos2dx_auto.cpp(37217): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37223): warning C4996: 'cocos2d::LabelBMFont::setWidth': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(112): note: see declaration of 'cocos2d::LabelBMFont::setWidth'
+..\auto\jsb_cocos2dx_auto.cpp(37238): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37241): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37258): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37261): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37280): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37283): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37305): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37308): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37333): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37336): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37238): warning C4996: 'cocos2d::LabelBMFont::create': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(101): note: see declaration of 'cocos2d::LabelBMFont::create'
+..\auto\jsb_cocos2dx_auto.cpp(37258): warning C4996: 'cocos2d::LabelBMFont::create': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(97): note: see declaration of 'cocos2d::LabelBMFont::create'
+..\auto\jsb_cocos2dx_auto.cpp(37280): warning C4996: 'cocos2d::LabelBMFont::create': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(97): note: see declaration of 'cocos2d::LabelBMFont::create'
+..\auto\jsb_cocos2dx_auto.cpp(37305): warning C4996: 'cocos2d::LabelBMFont::create': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(97): note: see declaration of 'cocos2d::LabelBMFont::create'
+..\auto\jsb_cocos2dx_auto.cpp(37333): warning C4996: 'cocos2d::LabelBMFont::create': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(97): note: see declaration of 'cocos2d::LabelBMFont::create'
+..\auto\jsb_cocos2dx_auto.cpp(37351): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37353): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37351): warning C4996: 'cocos2d::LabelBMFont::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(89): note: see declaration of 'cocos2d::LabelBMFont::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37361): warning C4996: 'cocos2d::LabelBMFont::~LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(94): note: see declaration of 'cocos2d::LabelBMFont::~LabelBMFont'
+  ..\auto\jsb_cocos2dx_auto.cpp(37361): note: This diagnostic occurred in the compiler generated function 'void *cocos2d::LabelBMFont::__delDtor(unsigned int)'
+..\auto\jsb_cocos2dx_auto.cpp(37366): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37366): warning C4996: 'cocos2d::LabelBMFont::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(89): note: see declaration of 'cocos2d::LabelBMFont::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37434): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelBMFont.h(83): note: see declaration of 'cocos2d::LabelBMFont'
+..\auto\jsb_cocos2dx_auto.cpp(37447): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37457): warning C4996: 'cocos2d::LabelTTF::enableShadow': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(108): note: see declaration of 'cocos2d::LabelTTF::enableShadow'
+..\auto\jsb_cocos2dx_auto.cpp(37471): warning C4996: 'cocos2d::LabelTTF::enableShadow': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(108): note: see declaration of 'cocos2d::LabelTTF::enableShadow'
+..\auto\jsb_cocos2dx_auto.cpp(37485): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37491): warning C4996: 'cocos2d::LabelTTF::setDimensions': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(139): note: see declaration of 'cocos2d::LabelTTF::setDimensions'
+..\auto\jsb_cocos2dx_auto.cpp(37504): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37507): warning C4996: 'cocos2d::LabelTTF::getFontSize': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(141): note: see declaration of 'cocos2d::LabelTTF::getFontSize'
+..\auto\jsb_cocos2dx_auto.cpp(37522): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37525): warning C4996: 'cocos2d::LabelTTF::getString': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(130): note: see declaration of 'cocos2d::LabelTTF::getString'
+..\auto\jsb_cocos2dx_auto.cpp(37541): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37547): warning C4996: 'cocos2d::LabelTTF::setFlippedY': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(152): note: see declaration of 'cocos2d::LabelTTF::setFlippedY'
+..\auto\jsb_cocos2dx_auto.cpp(37561): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37567): warning C4996: 'cocos2d::LabelTTF::setFlippedX': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(151): note: see declaration of 'cocos2d::LabelTTF::setFlippedX'
+..\auto\jsb_cocos2dx_auto.cpp(37581): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37587): warning C4996: 'cocos2d::LabelTTF::setTextDefinition': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(100): note: see declaration of 'cocos2d::LabelTTF::setTextDefinition'
+..\auto\jsb_cocos2dx_auto.cpp(37601): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37607): warning C4996: 'cocos2d::LabelTTF::setFontName': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(145): note: see declaration of 'cocos2d::LabelTTF::setFontName'
+..\auto\jsb_cocos2dx_auto.cpp(37620): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37623): warning C4996: 'cocos2d::LabelTTF::getHorizontalAlignment': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(132): note: see declaration of 'cocos2d::LabelTTF::getHorizontalAlignment'
+..\auto\jsb_cocos2dx_auto.cpp(37639): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37647): warning C4996: 'cocos2d::LabelTTF::initWithStringAndTextDefinition': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(97): note: see declaration of 'cocos2d::LabelTTF::initWithStringAndTextDefinition'
+..\auto\jsb_cocos2dx_auto.cpp(37663): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37669): warning C4996: 'cocos2d::LabelTTF::setString': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(129): note: see declaration of 'cocos2d::LabelTTF::setString'
+..\auto\jsb_cocos2dx_auto.cpp(37683): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37693): warning C4996: 'cocos2d::LabelTTF::initWithString': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(92): note: see declaration of 'cocos2d::LabelTTF::initWithString'
+..\auto\jsb_cocos2dx_auto.cpp(37709): warning C4996: 'cocos2d::LabelTTF::initWithString': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(92): note: see declaration of 'cocos2d::LabelTTF::initWithString'
+..\auto\jsb_cocos2dx_auto.cpp(37727): warning C4996: 'cocos2d::LabelTTF::initWithString': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(92): note: see declaration of 'cocos2d::LabelTTF::initWithString'
+..\auto\jsb_cocos2dx_auto.cpp(37747): warning C4996: 'cocos2d::LabelTTF::initWithString': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(92): note: see declaration of 'cocos2d::LabelTTF::initWithString'
+..\auto\jsb_cocos2dx_auto.cpp(37763): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37769): warning C4996: 'cocos2d::LabelTTF::setFontFillColor': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(120): note: see declaration of 'cocos2d::LabelTTF::setFontFillColor'
+..\auto\jsb_cocos2dx_auto.cpp(37779): warning C4996: 'cocos2d::LabelTTF::setFontFillColor': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(120): note: see declaration of 'cocos2d::LabelTTF::setFontFillColor'
+..\auto\jsb_cocos2dx_auto.cpp(37792): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37795): warning C4996: 'cocos2d::LabelTTF::getBlendFunc': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(149): note: see declaration of 'cocos2d::LabelTTF::getBlendFunc'
+..\auto\jsb_cocos2dx_auto.cpp(37811): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37819): warning C4996: 'cocos2d::LabelTTF::enableStroke': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(114): note: see declaration of 'cocos2d::LabelTTF::enableStroke'
+..\auto\jsb_cocos2dx_auto.cpp(37831): warning C4996: 'cocos2d::LabelTTF::enableStroke': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(114): note: see declaration of 'cocos2d::LabelTTF::enableStroke'
+..\auto\jsb_cocos2dx_auto.cpp(37844): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37847): warning C4996: 'cocos2d::LabelTTF::getDimensions': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(138): note: see declaration of 'cocos2d::LabelTTF::getDimensions'
+..\auto\jsb_cocos2dx_auto.cpp(37863): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37869): warning C4996: 'cocos2d::LabelTTF::setVerticalAlignment': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(136): note: see declaration of 'cocos2d::LabelTTF::setVerticalAlignment'
+..\auto\jsb_cocos2dx_auto.cpp(37883): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37889): warning C4996: 'cocos2d::LabelTTF::setFontSize': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(142): note: see declaration of 'cocos2d::LabelTTF::setFontSize'
+..\auto\jsb_cocos2dx_auto.cpp(37902): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37905): warning C4996: 'cocos2d::LabelTTF::getVerticalAlignment': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(135): note: see declaration of 'cocos2d::LabelTTF::getVerticalAlignment'
+..\auto\jsb_cocos2dx_auto.cpp(37920): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37923): warning C4996: 'cocos2d::LabelTTF::getTextDefinition': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(103): note: see declaration of 'cocos2d::LabelTTF::getTextDefinition'
+..\auto\jsb_cocos2dx_auto.cpp(37939): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37945): warning C4996: 'cocos2d::LabelTTF::setBlendFunc': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(147): note: see declaration of 'cocos2d::LabelTTF::setBlendFunc'
+..\auto\jsb_cocos2dx_auto.cpp(37958): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37961): warning C4996: 'cocos2d::LabelTTF::getFontName': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(144): note: see declaration of 'cocos2d::LabelTTF::getFontName'
+..\auto\jsb_cocos2dx_auto.cpp(37977): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(37983): warning C4996: 'cocos2d::LabelTTF::setHorizontalAlignment': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(133): note: see declaration of 'cocos2d::LabelTTF::setHorizontalAlignment'
+..\auto\jsb_cocos2dx_auto.cpp(37997): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38000): warning C4996: 'cocos2d::LabelTTF::disableShadow': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(111): note: see declaration of 'cocos2d::LabelTTF::disableShadow'
+..\auto\jsb_cocos2dx_auto.cpp(38008): warning C4996: 'cocos2d::LabelTTF::disableShadow': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(111): note: see declaration of 'cocos2d::LabelTTF::disableShadow'
+..\auto\jsb_cocos2dx_auto.cpp(38022): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38025): warning C4996: 'cocos2d::LabelTTF::disableStroke': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(117): note: see declaration of 'cocos2d::LabelTTF::disableStroke'
+..\auto\jsb_cocos2dx_auto.cpp(38033): warning C4996: 'cocos2d::LabelTTF::disableStroke': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(117): note: see declaration of 'cocos2d::LabelTTF::disableStroke'
+..\auto\jsb_cocos2dx_auto.cpp(38048): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38051): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38071): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38074): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38096): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38099): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38124): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38127): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38155): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38158): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38048): warning C4996: 'cocos2d::LabelTTF::create': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(124): note: see declaration of 'cocos2d::LabelTTF::create'
+..\auto\jsb_cocos2dx_auto.cpp(38071): warning C4996: 'cocos2d::LabelTTF::create': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(83): note: see declaration of 'cocos2d::LabelTTF::create'
+..\auto\jsb_cocos2dx_auto.cpp(38096): warning C4996: 'cocos2d::LabelTTF::create': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(83): note: see declaration of 'cocos2d::LabelTTF::create'
+..\auto\jsb_cocos2dx_auto.cpp(38124): warning C4996: 'cocos2d::LabelTTF::create': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(83): note: see declaration of 'cocos2d::LabelTTF::create'
+..\auto\jsb_cocos2dx_auto.cpp(38155): warning C4996: 'cocos2d::LabelTTF::create': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(83): note: see declaration of 'cocos2d::LabelTTF::create'
+..\auto\jsb_cocos2dx_auto.cpp(38180): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38181): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38180): warning C4996: 'cocos2d::LabelTTF::createWithFontDefinition': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(89): note: see declaration of 'cocos2d::LabelTTF::createWithFontDefinition'
+..\auto\jsb_cocos2dx_auto.cpp(38194): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38196): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38194): warning C4996: 'cocos2d::LabelTTF::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(73): note: see declaration of 'cocos2d::LabelTTF::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38204): warning C4996: 'cocos2d::LabelTTF::~LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(78): note: see declaration of 'cocos2d::LabelTTF::~LabelTTF'
+  ..\auto\jsb_cocos2dx_auto.cpp(38204): note: This diagnostic occurred in the compiler generated function 'void *cocos2d::LabelTTF::__delDtor(unsigned int)'
+..\auto\jsb_cocos2dx_auto.cpp(38209): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38209): warning C4996: 'cocos2d::LabelTTF::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(73): note: see declaration of 'cocos2d::LabelTTF::LabelTTF'
+..\auto\jsb_cocos2dx_auto.cpp(38292): warning C4996: 'cocos2d::LabelTTF': was declared deprecated
+  c:\users\zero\desktop\gitproject\parkour-cocos2dx-js-v3.16\parkour\frameworks\cocos2d-x\cocos\2d/CCLabelTTF.h(67): note: see declaration of 'cocos2d::LabelTTF'
+  js_bindings_chipmunk_auto_classes.cpp
+  js_bindings_chipmunk_functions.cpp
+  js_bindings_chipmunk_manual.cpp
+  js_bindings_chipmunk_registration.cpp
+  cocos2d_specifics.cpp
+  js_bindings_ccbreader.cpp
+  jsb_cocos2dx_studio_conversions.cpp
+  jsb_cocos2dx_studio_manual.cpp
+  CCComponentJS.cpp
+  jsb_cocos2dx_extension_manual.cpp
+  jsb_event_dispatcher_manual.cpp
+  jsb_opengl_functions.cpp
+  jsb_opengl_manual.cpp
+  jsb_opengl_registration.cpp
+  js_bindings_core.cpp
+  js_bindings_opengl.cpp
+  js_manual_conversions.cpp
+  js_module_register.cpp
+  js_bindings_system_functions.cpp
+  js_bindings_system_registration.cpp
+  jsb_cocos2dx_navmesh_conversions.cpp
+  jsb_cocos2dx_navmesh_manual.cpp
+  jsb_socketio.cpp
+  jsb_websocket.cpp
+  XMLHTTPRequest.cpp
+  js_network_manual.cpp
+  jsb_cocos2dx_physics3d_manual.cpp
+  ScriptingCore.cpp
+  jsb_cocos2dx_spine_manual.cpp
+  jsb_cocos2dx_ui_manual.cpp
+..\manual\ui\jsb_cocos2dx_ui_manual.cpp(132): warning C4996: 'cocos2d::ui::EditBoxDelegate::editBoxEditingDidEnd': was declared deprecated
+  C:\Users\zero\Desktop\gitProject\Parkour-cocos2dx-js-v3.16\Parkour\frameworks\cocos2d-x\cocos\2d\..\..\cocos\ui/UIEditBox/UIEditBox.h(80): note: see declaration of 'cocos2d::ui::EditBoxDelegate::editBoxEditingDidEnd'
+  libjscocos2d.vcxproj -> C:\Users\zero\Desktop\gitProject\Parkour-cocos2dx-js-v3.16\Parkour\frameworks\runtime-src\proj.win32\Release.win32\libjscocos2d.lib
