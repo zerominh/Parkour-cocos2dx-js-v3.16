@@ -5,22 +5,20 @@ var AnimationLayer = cc.Layer.extend({
 	space:null,
     body:null,
     shape:null,
+    debugNode: null,
     ctor:function (space) {
         this._super();
         this.space = space;
+         this.debugNode = new cc.PhysicsDebugNode(this.space);
+        // Parallax ratio and offset
+        this.addChild(this.debugNode, 10);
         this.init();
-        this._debugNode = new cc.PhysicsDebugNode(this.space);
-		// Parallax ratio and offset
-		this.addChild(this._debugNode, 10);
+        this.scheduleUpdate();
     },
 
     init:function () {
         this._super();
 
-        //create the hero sprite
-        // var spriteRunner = new cc.Sprite(res.runner_png);
-        // spriteRunner.attr({x: 80, y: 85});
-        // this.addChild(spriteRunner);
 
         cc.spriteFrameCache.addSpriteFrames(res.runner_plist);
         this.spriteSheet = new cc.SpriteBatchNode(res.runner_png);
@@ -67,4 +65,10 @@ var AnimationLayer = cc.Layer.extend({
     getEyeX:function () {
     	return this.sprite.getPositionX() - g_runnerStartX;
 	},
+    update: function() {
+         var pLayer = this.getParent();
+         var ppLayer = pLayer.getParent();
+         var statusLayer = ppLayer.getChildByTag(TagOfLayer.Status);
+        statusLayer.updateMeter(this.sprite.getPositionX() - g_runnerStartX);
+    },
 });

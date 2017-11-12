@@ -2,6 +2,7 @@ var Coin = cc.Class.extend({
     space:null,
     sprite:null,
     shape:null,
+    body: null,
     _mapIndex:0,// which map belongs to
     get mapIndex() {
         return this._mapIndex;
@@ -33,11 +34,11 @@ var Coin = cc.Class.extend({
 
         // init physics
         var radius = 0.95 * this.sprite.getContentSize().width / 2;
-        var body = new cp.StaticBody();
-        body.setPos(pos);
-        this.sprite.setBody(body);
+        this.body = new cp.StaticBody();
+        this.body.setPos(pos);
+        this.sprite.setBody(this.body);
 
-        this.shape = new cp.CircleShape(body, radius, cp.vzero);
+        this.shape = new cp.CircleShape(this.body, radius, cp.vzero);
         this.shape.setCollisionType(SpriteTag.coin);
         //Sensors only call collision callbacks, and never generate real collisions
         this.shape.setSensor(true);

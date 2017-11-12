@@ -9,7 +9,6 @@ var BackgroundLayer = cc.Layer.extend({
 
     ctor:function (space) {
         this._super();
-
         // clean old array here
         this.objects = [];
         this.space = space;
@@ -106,7 +105,7 @@ var BackgroundLayer = cc.Layer.extend({
 
         }
 
-        //this.removeObjects(newMapIndex - 1);
+        this.removeObjects(newMapIndex - 1);
         this.mapIndex = newMapIndex;
 
         return true;

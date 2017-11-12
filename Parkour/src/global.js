@@ -5,6 +5,7 @@ if(typeof TagOfLayer == "undefined") {
     TagOfLayer.Background = 0;
     TagOfLayer.Animation = 1;
     TagOfLayer.Status = 2;
+    TagOfLayer.GameLayer = 3;
 };
 if(typeof SpriteTag == "undefined") {
     var SpriteTag = {};

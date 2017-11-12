@@ -7,10 +7,11 @@ var PlayScene = cc.Scene.extend({
         var shapes = arbiter.getShapes();
         // shapes[0] is runner
         this.shapesToRemove.push(shapes[1]);
+        var statusLayer = this.getChildByTag(TagOfLayer.Status);
+        statusLayer.addCoin(1);
     },
 
     collisionRockBegin:function (arbiter, space) {
-        cc.log("==game over");
         cc.director.pause();
         this.addChild(new GameOverLayer());
     },
@@ -24,7 +25,7 @@ var PlayScene = cc.Scene.extend({
         //add Background layer and Animation layer to gameLayer
         this.gameLayer.addChild(new BackgroundLayer(this.space), 0, TagOfLayer.Background);
         this.gameLayer.addChild(new AnimationLayer(this.space), 0, TagOfLayer.Animation);
-        this.addChild(this.gameLayer);
+        this.addChild(this.gameLayer, 0, TagOfLayer.GameLayer);
         this.addChild(new StatusLayer(), 0, TagOfLayer.Status);
         this.scheduleUpdate();
 	},
@@ -49,13 +50,19 @@ var PlayScene = cc.Scene.extend({
             this.collisionRockBegin.bind(this), null, null, null);
     },
     update:function (dt) {
-        // chipmunk step
+
+         // chipmunk step
         this.space.step(dt);
+
+        for(var i = 0; i < this.shapesToRemove.length; i++) {
+            var shape = this.shapesToRemove[i];
+            this.gameLayer.getChildByTag(TagOfLayer.Background).removeObjectByShape(shape);
+        }
+        this.shapesToRemove = [];
 
         var animationLayer = this.gameLayer.getChildByTag(TagOfLayer.Animation);
         var eyeX = animationLayer.getEyeX();
-        console.log(this.gameLayer.getPositionX());
         this.gameLayer.setPosition(cc.p(-eyeX,0));
-        console.log(this.gameLayer.getPositionX());
+
     }
 });
