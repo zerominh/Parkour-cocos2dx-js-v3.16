@@ -1,20 +1,7 @@
 var PlayScene = cc.Scene.extend({
 	space: null,
 	gameLayer: null,
-    //the following line goes in init member variable define area
     shapesToRemove :[],
-    collisionCoinBegin:function (arbiter, space) {
-        var shapes = arbiter.getShapes();
-        // shapes[0] is runner
-        this.shapesToRemove.push(shapes[1]);
-        var statusLayer = this.getChildByTag(TagOfLayer.Status);
-        statusLayer.addCoin(1);
-    },
-
-    collisionRockBegin:function (arbiter, space) {
-        cc.director.pause();
-        this.addChild(new GameOverLayer());
-    },
 
     onEnter: function() {
 		this._super();
@@ -27,9 +14,25 @@ var PlayScene = cc.Scene.extend({
         this.gameLayer.addChild(new AnimationLayer(this.space), 0, TagOfLayer.Animation);
         this.addChild(this.gameLayer, 0, TagOfLayer.GameLayer);
         this.addChild(new StatusLayer(), 0, TagOfLayer.Status);
+
+        cc.audioEngine.playMusic(res.background_mp3, true);
+
+        if( 'keyboard' in cc.sys.capabilities ) {
+            cc.eventManager.addListener({
+                event: cc.EventListener.KEYBOARD,
+                onKeyPressed: function (keyCode, event) {
+                    switch (keyCode) {
+                        case cc.KEY.up:
+                            cc.log("up");
+                            this.gameLayer.getChildByTag(TagOfLayer.Animation).jump();
+                            //this.check();
+                            break;
+                    }
+                }.bind(this)
+            }, this);
+        }
         this.scheduleUpdate();
 	},
-	 // init space of chipmunk
     initPhysics:function() {
         //1. new space object 
         this.space = new cp.Space();
@@ -48,6 +51,20 @@ var PlayScene = cc.Scene.extend({
            this.collisionCoinBegin.bind(this), null, null, null);
         this.space.addCollisionHandler(SpriteTag.runner, SpriteTag.rock,
             this.collisionRockBegin.bind(this), null, null, null);
+    },
+    collisionCoinBegin:function (arbiter, space) {
+        cc.audioEngine.playEffect(res.pickup_coin_mp3);
+        var shapes = arbiter.getShapes();
+        // shapes[0] is runner
+        this.shapesToRemove.push(shapes[1]);
+        var statusLayer = this.getChildByTag(TagOfLayer.Status);
+        statusLayer.addCoin(1);
+    },
+
+    collisionRockBegin:function (arbiter, space) {
+        cc.audioEngine.stopMusic();
+        cc.director.pause();
+        this.addChild(new GameOverLayer());
     },
     update:function (dt) {
 
